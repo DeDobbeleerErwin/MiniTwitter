@@ -1,0 +1,29 @@
+body{
+    color: #424242;
+}
+
+.navbar, .btn-primary{
+    background-color: #cff0cc;
+    color:  #a67c5b;
+    border: 0;
+}
+
+.nav-link{
+    color:  #a67c5b;
+    border-radius: 0.3rem;
+    padding: 0.65em 2rem;
+    margin: 0 2rem;
+}
+
+.btn:hover, .nav-link:hover, .active{
+    background-color: #a67c5b;
+    color: #cff0cc;
+}
+
+form {
+    margin: 0 auto;
+}
+
+#settings{
+    color: #a67c5b;
+}

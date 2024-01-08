@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!--NAV-->
+    <nav class="navbar navbar-expand-md pb-">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="#">
+                <img src="img/chatter-logo.png" alt="chatter-logo" width="250">
+            </a>
+            <div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Meldingen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Berichten</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="register.html" class="nav-link">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container mt-5">
+        <form id="messageForm" class="w-75">
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Schrijf je bericht" id="messageInput"
+                    style="height: 120px"></textarea>
+                <label for="floatingTextarea2">Schrijf je bericht</label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-2">Verzend</button>
+        </form>
+    </section>
+    <section class="w-50 mx-auto my-4">
+        <div id="allMessages">
+
+        </div>
+        <div>
+            <a href="" id="prevBtn" class="btn btn-primary">Vorige</a>
+            <a href="" id="nextBtn" class="btn btn-primary">Volgende</a>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
